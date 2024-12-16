@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import Din from "../../Public/dining.jpeg";
-import Liv from "../../public/living.jpeg";
-import Bed from "../../public/bedroom.jpeg";
+import Din from "../../Public/dining.jpeg"
+import Liv from "../../Public/living.jpeg";
+import Bed from "../../Public/bedroom.jpeg";
 
 export default function SubHero() {
   return (
