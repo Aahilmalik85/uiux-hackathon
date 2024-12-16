@@ -1,8 +1,8 @@
 "use client"
-import '@fontsource/poppins'; // Correct way to import
-import { TiLocation } from 'react-icons/ti';
-import { FaPhone } from "react-icons/fa6";
-import { IoTimeSharp } from "react-icons/io5";
+// import '@fontsource/poppins'; // Correct way to import
+// import { TiLocation } from 'react-icons/ti';
+// import { FaPhone } from "react-icons/fa6";
+// import { IoTimeSharp } from "react-icons/io5";
 
 export default function Contact() {
   return (
@@ -26,7 +26,7 @@ export default function Contact() {
           
           <div className="flex-1 space-y-6 md:space-y-8">
             <div className="flex items-start">
-              <TiLocation  />
+              {/* <TiLocation  /> */}
               <div>
                 <h2 className="font-bold text-xl md:text-2xl text-gray-900">Address</h2>
                 <p className="font-medium text-lg md:text-xl text-gray-700">236 5th Avenue, New York NY10000, United States</p>
@@ -34,7 +34,7 @@ export default function Contact() {
             </div>
 
             <div className="flex items-start">
-              <FaPhone />
+              {/* <FaPhone /> */}
               <div>
                 <h2 className="font-bold text-xl md:text-2xl text-gray-900">Phone</h2>
                 <p className="font-medium text-lg md:text-xl text-gray-700">Mobile: +(84) 546-6789</p>
@@ -43,7 +43,7 @@ export default function Contact() {
             </div>
 
             <div className="flex items-start">
-              <IoTimeSharp />
+              {/* <IoTimeSharp /> */}
               <div>
                 <h2 className="font-bold text-xl md:text-2xl text-gray-900">Working Time</h2>
                 <p className="font-medium text-lg md:text-xl text-gray-700">Monday-Friday: 9:00-22:00</p>
